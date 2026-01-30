@@ -7,6 +7,6 @@ To run this project, Python 3 and OpenCV must be installed on your system. You c
 Due to GitHub file size limitations, the YOLOv3 pre-trained weights file is not included in this repository. You must manually download the yolov3.weights file from Kaggle using the following link: https://www.kaggle.com/datasets/shivam316/yolov3-weights
 . After downloading, place the file inside the yolo folder of the project directory so that the final path becomes yolo/yolov3.weights. The project will not run correctly if this file is missing or placed in the wrong directory.
 
-Once the weights file is added, the project can be executed by running the main Python file using the command python main.py. After execution, the system will start processing the input video and display detected vehicles with bounding boxes in real time.
+Once the weights file is added, the project can be executed by running the ui/main_window.py. After execution, the system will start processing the input video and display detected vehicles with bounding boxes in real time.
 
 This project demonstrates the practical implementation of deep learning-based object detection and highlights the use of YOLO for real-time applications. It is suitable for learning purposes, portfolio projects, and demonstrations of computer vision capabilities.
